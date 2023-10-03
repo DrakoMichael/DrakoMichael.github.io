@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.background {
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5));
+    background-image: url(./Imgs/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+}
+
+.cabeçalho-link a {
+    color: rgb(241, 235, 255);
+    font-size: 17px;
+}
+
+.cabeçalho-link a:hover {
+    color: rgb(39, 39, 99);
+    transition: 0.2s;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #ffffff81;
+    color: aliceblue;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font: 13px;
+    cursor: pointer;
+}
+
+button {
+    color: aliceblue;
+    background: transparent;
+    border: 1px solid #aea3ca;
+    padding: 5px;
+    border-radius: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9988c7;
+    color: black;
+    transition: 0.5s;
+}
+
+.container-text {
+    padding: 150px;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-size: 2.5vw;
+}
+
+.text h1 {
+    color: rgba(203, 194, 224, 0.829);
+}
+.text h3 {
+    color: rgb(255, 255, 255);
+}
+
+.text h1 span {
+    color: rgb(255, 255, 255);
+}
+
+.text p {
+    color: rgb(209, 199, 233);
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.text p span {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+
+.redes-sociais {
+    margin-top: 10px;
+}
+
+.redes-sociais a {
+    padding-top: 40px;
+    font-size: 2.2vw;
+    color: rgba(215, 206, 255, 0.808);
+    padding: 10px;
+}
+.redes-sociais a:hover {
+    color: azure;
+    transition: 0.5s;
+}
+
+#Btn2 {
+    margin-top: 10px;
+    font-size: 16px;
+}
