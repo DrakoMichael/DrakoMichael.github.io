@@ -15,7 +15,7 @@ body {
 
 .background {
     background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5));
-    background-image: url(./Imgs/Background.jpg);
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 0%, rgba(13, 5, 43, 0.171) 100%), url('Imgs/Background.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
