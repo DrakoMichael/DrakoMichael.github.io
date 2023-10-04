@@ -46,21 +46,21 @@ header {
 }
 
 .cabeçalho-link a:hover {
-    color: rgb(39, 39, 99);
-    transition: 0.2s;
+    color: rgb(112, 112, 175);
+    transition: 0.4s;
 }
 
 .logo {
     height: 40px;
     width: 40px;
     background: transparent;
-    border: 1px solid #ffffff81;
+    border: 1px solid #ffffff3a;
     color: aliceblue;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font: 13px;
+    font: 14px;
     cursor: pointer;
 }
 
@@ -90,7 +90,7 @@ button:hover {
 }
 
 .text h1 {
-    color: rgba(203, 194, 224, 0.829);
+    color: rgba(213, 213, 255, 0.733);
 }
 .text h3 {
     color: rgb(255, 255, 255);
@@ -118,7 +118,7 @@ button:hover {
 
 .redes-sociais a {
     padding-top: 40px;
-    font-size: 2.2vw;
+    font-size: 2.4vw;
     color: rgba(215, 206, 255, 0.808);
     padding: 10px;
 }
