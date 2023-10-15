@@ -11,11 +11,12 @@
 
 body {
     overflow: hidden;
+    background-color: rgb(0, 0, 0);
 }
 
 .background {
     background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5));
-   background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 0%, rgba(13, 5, 43, 0.171) 100%), url('Imgs/Background.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 0%, rgba(13, 5, 43, 0.171) 100%), url('Imgs/nathan-anderson.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -54,7 +55,7 @@ header {
     height: 40px;
     width: 40px;
     background: transparent;
-    border: 1px solid #ffffff3a;
+    /* border: 1px solid #ffffff3a; */
     color: aliceblue;
     border-radius: 50%;
     display: inline-flex;
@@ -131,3 +132,95 @@ button:hover {
     margin-top: 10px;
     font-size: 16px;
 }
+
+.creditos {
+    color: rgb(209, 199, 233);
+    font-weight: 500;
+    text-align: end;
+    padding-right: 150px;
+ }
+
+ .textoMeusProjetos {
+    font-size: 5px;
+ }
+
+ .fa-solid {
+    padding-left: 10px;
+ }
+
+
+
+
+/* Keyframes */
+
+@keyframes aberturaAnimacao {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  
+  .animate-this-element {
+    animation: aberturaAnimacao 2s forwards;
+  }
+
+
+  @keyframes animacaoTexto {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  
+  .TextoAnimacao {
+    animation: animacaoTexto 4s forwards;
+  }
+
+
+  @keyframes animacaoTextoCredito {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  
+  .TextoAnimacaoCred {
+    animation: animacaoTextoCredito 7s forwards;
+  }
+
+  @keyframes animacaoTextoMenu {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  
+  .TextoAnimacaoMenu {
+    animation: animacaoTextoMenu 10s forwards;
+  }
+
+  @keyframes wipe-cinematic-in {
+    0% {
+      clip-path: inset(100% 0 100% 0);
+    }
+    30%, 70% {
+      clip-path: inset(10% 0 10% 0);
+    }
+    100% {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  .wipecinematic {
+    animation-name: wipe-cinematic-in;
+    animation-timing-function: ease-in-out; /* Use a função de temporização ease-in-out para suavizar a animação. */
+    animation-duration: 2.5s; /* Aumente a duração da animação para torná-la mais lenta (em segundos). */
+  }
