@@ -12,11 +12,21 @@
 body {
     overflow: hidden;
     background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
 }
 
 .background {
-    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5));
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.76) 0%, rgba(13, 5, 43, 0.171) 100%), url('Imgs/nathan-anderson.jpg');
+    background: linear-gradient(rgba(2, 14, 32, 0.747), rgb(1, 1, 5));
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -87,14 +97,16 @@ button:hover {
 
 .text {
     color: rgb(255, 255, 255);
-    font-size: 2.5vw;
+    font-size: 3rem;
 }
 
 .text h1 {
     color: rgba(213, 213, 255, 0.733);
+    font-size: 5rem;
 }
 .text h3 {
     color: rgb(255, 255, 255);
+    font-size: 4rem;
 }
 
 .text h1 span {
@@ -111,6 +123,9 @@ button:hover {
     color: rgb(255, 255, 255);
     font-weight: 500;
 }
+.subtexto p{
+    font-size: 1.3rem;
+}
 
 
 .redes-sociais {
@@ -119,7 +134,7 @@ button:hover {
 
 .redes-sociais a {
     padding-top: 40px;
-    font-size: 2.4vw;
+    font-size: 3rem;
     color: rgba(215, 206, 255, 0.808);
     padding: 10px;
 }
@@ -134,10 +149,16 @@ button:hover {
 }
 
 .creditos {
-    color: rgb(209, 199, 233);
+    opacity: 60%;
+    color: rgba(209, 197, 238, 0.568);
     font-weight: 500;
     text-align: end;
-    padding-right: 150px;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+ }
+ .creditos > a {
+    color: rgb(249, 248, 255);
  }
 
  .textoMeusProjetos {
@@ -150,9 +171,12 @@ button:hover {
 
 
 
+/* New */
+
+
 
 /* Keyframes */
-
+/* 
 @keyframes aberturaAnimacao {
     from {
         opacity: 0;
@@ -221,6 +245,6 @@ button:hover {
   
   .wipecinematic {
     animation-name: wipe-cinematic-in;
-    animation-timing-function: ease-in-out; /* Use a função de temporização ease-in-out para suavizar a animação. */
-    animation-duration: 2.5s; /* Aumente a duração da animação para torná-la mais lenta (em segundos). */
-  }
+    animation-timing-function: ease-in-out; 
+    animation-duration: 2.5s;
+  } */
